@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeMMA — sandra yang</title>
+<meta name="description" content="Test-time meta-learning for theorem-proving LLMs.">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+<nav><a href="/">sandra yang</a></nav>
+<h1>LeMMA: Learning Math by Meta-Adaptation</h1>
+<p class="meta">Zeyneb N. Kaya, Nick Rui, Sandra Yang · Stanford CS229 · <a href="/lemma.pdf">pdf</a></p>
+<div class="abstract"><p><b>Abstract.</b> Automated theorem proving in Lean 4 is bottlenecked by data scarcity, and existing provers train on static synthetic datasets applied uniformly to every problem. LeMMA reframes theorem proving as a test-time meta-learning task: given a formal theorem statement, the model first generates related synthetic lemmas and proofs, a Weigher model scores them by their utility for the target problem, and the prover adapts its parameters on this weighted, problem-specific dataset before attempting a verifiable proof. The Weigher is trained with a bilevel-optimization RL objective (GRPO) using LoRA and mixed-mode bilevel differentiation for memory-efficient meta-gradients. On a 100-theorem subset of miniF2F, LeMMA improves over DeepSeek-Prover-V2 by 43%, suggesting that spending test-time compute on meta-adaptation yields better returns than scaling sample budgets.</p></div>
+<h2>Links</h2>
+<ul class="plain">
+<li><a href="/lemma.pdf">Paper (PDF)</a></li>
+<li><a href="https://github.com/birdhumming">Code</a> — coming soon</li>
+</ul>
+
+</main>
+</body>
+</html>
