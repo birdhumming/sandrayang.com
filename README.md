@@ -1,4 +1,4 @@
-# sandrayang.me
+# sandrayang.com
 
 Static site, no build step. Everything under `public/` is served as-is.
 

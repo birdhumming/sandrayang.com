@@ -1,4 +1,4 @@
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,10.5pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -37,11 +37,10 @@
 
 \newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeSubheading}[3]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textbf{#1} \textit{\small\ #2} & \small #3 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -64,20 +63,19 @@
 \begin{center}
     \textbf{\Huge \scshape Sandra Yang} \\ \vspace{3pt}
     \small \href{mailto:aleyang@stanford.edu}{aleyang@stanford.edu} $|$
-    \href{https://sandrayang.me}{sandrayang.me} $|$
-    \href{https://www.linkedin.com/in/aleyang}{linkedin.com/in/aleyang} $|$
+    \href{https://sandrayang.com}{sandrayang.com} $|$
     \href{https://github.com/birdhumming}{github.com/birdhumming} $|$
+    \href{https://www.linkedin.com/in/aleyang}{linkedin.com/in/aleyang} $|$
     \href{https://x.com/sandylikesfrogs}{@sandylikesfrogs}
 \end{center}
 
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Stanford University}{Jun. 2028}
-      {B.S. Computer Science + Mathematics}{Stanford, CA}
+      {Stanford University}{B.S. Computer Science + Mathematics}{Jun. 2028}
       \resumeItemListStart
         \resumeItem{Coursework: Machine Learning, Reinforcement Learning, Operating Systems, Algorithms, Probability, Statistical Inference, Stochastic Processes, Real Analysis, Combinatorics}
-        \resumeItem{Co-Director \& Lead Problem-Writer of Stanford ProCo; Counterpoint A Cappella; Women in National Security}
+        \resumeItem{Co-Director \& Lead Problem-Writer, Stanford ProCo}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -85,56 +83,43 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Ramp}{Jun. 2026 -- Sep. 2026}
-      {Software Engineer Intern}{San Francisco, CA}
+      {Ramp}{Software Engineer Intern}{Jun. 2026 -- Sep. 2026}
       \resumeItemListStart
         \resumeItem{Early engineer on \href{https://router.com}{Ramp Router}, an LLM gateway that cuts inference costs \textasciitilde40\%: helped design and build the initial gateway, onboarding, and attribution, and wrote the first intelligent routing strategies (semantic difficulty-based model selection).}
-        \resumeItem{Co-ran \href{https://sandrayang.me/bugbasher}{BugBasher}, a four-week experiment giving an autonomous agent (Devin) a Ramp card, phone, and email to run a B2B business from a cold start; built the heartbeat automations, shared ``brain'' memory store, and voice pipeline (Twilio, ElevenLabs, Stripe) behind the first publicly documented AI-agent cold-start sale.}
+        \resumeItem{Co-ran \href{https://sandrayang.com/bugbasher}{BugBasher}, a four-week experiment giving an autonomous agent (Devin) a Ramp card, phone, and email to run a B2B business from a cold start; built the heartbeat automations, shared ``brain'' memory store, and voice pipeline (Twilio, ElevenLabs, Stripe) behind the first publicly documented AI-agent cold-start sale.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Andreessen Horowitz (a16z)}{\textcolor{red}{Mon. 2026 -- Mon. 2026}}
-      {New Media}{Menlo Park, CA}
+      {Andreessen Horowitz (a16z)}{New Media}{Mar. 2026 -- Jun. 2026}
       \resumeItemListStart
         \resumeItem{Built application infrastructure for a16z fellowship programs end to end (intake, review, and tooling).}
+        \resumeItem{Hosted \textit{Monitoring the Situation}, a daily tech show on X.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Monitoring the Situation (MTS)}{\textcolor{red}{Mon. 2026 -- Mon. 2026}}
-      {Host}{San Francisco, CA}
+      {Khosla Ventures}{Technical Intern to Vinod Khosla}{Jan. 2026 -- Mar. 2026}
       \resumeItemListStart
-        \resumeItem{Hosted a daily TV show on X covering tech and current events.}
+        \resumeItem{Built internal platform tooling and AI/ML pipelines for portfolio evaluation; worked directly with Vinod Khosla on infrastructure and investment. TypeScript, Drizzle ORM, PostgreSQL, AWS.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Khosla Ventures}{Jan. 2026 -- Mar. 2026}
-      {Technical Intern to Vinod Khosla}{Menlo Park, CA}
-      \resumeItemListStart
-        \resumeItem{Built internal platform tooling and AI/ML pipelines for portfolio evaluation; worked directly with Vinod Khosla on infrastructure and investment. TypeScript, Drizzle ORM, PostgreSQL, AWS (Lambda, S3, SQS).}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Human Behavior (YC X25)}{Jun. 2025 -- Sep. 2025}
-      {Founding Engineer}{San Francisco, CA}
+      {Human Behavior (YC X25)}{Founding Engineer}{Jun. 2025 -- Sep. 2025}
       \resumeItemListStart
         \resumeItem{First hire; took the core product and platform from 0 to 1 across frontend, backend, AI/ML, design, and product. TypeScript, Postgres, LangChain, React Native, Node.js.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Jane Street}{Mar. 2025}
-      {First-Year Trading \& Technology Program}{New York, NY}
+      {Jane Street}{First-Year Trading \& Technology Program}{Mar. 2025}
       \vspace{4pt}
 
     \resumeSubheading
-      {Harvard Visual Attention Lab}{Jun. 2023 -- Aug. 2023}
-      {Research Intern}{Cambridge, MA}
+      {Harvard Visual Attention Lab}{Research Intern}{Jun. 2023 -- Aug. 2023}
       \resumeItemListStart
         \resumeItem{Developed algorithms extracting predictive signal from unskilled crowd data for breast cancer detection; adopted by a medical data-labelling company, improving prediction accuracy 21\%.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {University of Virginia Biocomplexity Institute}{Aug. 2021 -- Jul. 2023}
-      {Algorithms Developer Intern}{Remote}
+      {University of Virginia Biocomplexity Institute}{Algorithms Developer Intern}{Aug. 2021 -- Jul. 2023}
       \resumeItemListStart
         \resumeItem{Designed hybrid parallel merge-sort algorithms (Python, OpenMPI, multiprocessing) achieving 34x speedups; co-authored preprint \href{https://arxiv.org/abs/2211.16479}{\textit{Approaches to the Parallelization of Merge Sort in Python}} with Prof. Gregor von Laszewski.}
       \resumeItemListEnd
@@ -144,13 +129,13 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://sandrayang.me/lemma.pdf}{LeMMA: Test-Time Meta-Learning for Theorem-Proving LLMs}} $|$ \emph{PyTorch, vLLM, Lean 4}}{}
+          {\textbf{\href{https://sandrayang.com/lemma.pdf}{LeMMA: Test-Time Meta-Learning for Theorem-Proving LLMs}} $|$ \emph{PyTorch, vLLM, Lean 4}}{}
           \resumeItemListStart
             \resumeItem{Bilevel-optimization RL algorithm (GRPO) that trains an LLM to generate and weight problem-specific synthetic lemmas at inference time, then adapts on them before proving. Beat DeepSeek-Prover-V2 by 43\% on miniF2F.}
             \resumeItem{LoRA + mixed-mode bilevel differentiation for memory-efficient meta-gradients on GPU.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{\href{https://sandrayang.me/bugbasher}{BugBasher: An AI Agent Running a Business}} $|$ \emph{Devin, Ramp, Twilio, ElevenLabs, Stripe}}{}
+          {\textbf{\href{https://sandrayang.com/bugbasher}{BugBasher: An AI Agent Running a Business}} $|$ \emph{Devin, Ramp, Twilio, ElevenLabs, Stripe}}{}
           \resumeItemListStart
             \resumeItem{Agent made 10,929 cold calls, self-revised its calling prompt from 252 to 2,793 words, escalated blockers by finding our emails in git history, and closed its first sale. Co-wrote the write-up \textit{Make money, make no mistakes}.}
           \resumeItemListEnd
@@ -159,19 +144,14 @@
           \resumeItemListStart
             \resumeItem{Wrote 15+ algorithmic problems (DP, graphs, combinatorics, math) for 300+ Bay Area students; built generators and validators and deployed via Polygon. Problem sets: \href{https://codeforces.com/gym/592245}{2025}, \href{https://codeforces.com/gym/676302}{2026}.}
           \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{\href{https://github.com/birdhumming/xiao-prompt}{XiaoPrompt}} (Winner, HackMIT) $|$ \emph{Next.js, Supabase}}{}
-          \resumeItemListStart
-            \resumeItem{Prompt-distillation API cutting token usage 53\% at 94\% output consistency; A/B tested via an image-contains-text framework.}
-          \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 \section{Awards \& Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Awards}{: USACO Platinum; 4x AIME Qualifier; 2x CyberPatriot National Finalist \& Boeing Champion; NCSF National Cyber Scholar; PROMYS 2022; Canada/USA Mathcamp 2021} \\ \vspace{1pt}
-     \textbf{Languages}{: Python, C++, C, TypeScript, Java, SQL, Bash, Lean 4} \\ \vspace{1pt}
-     \textbf{ML / Infra}{: PyTorch, vLLM, LangGraph, scikit-learn, NumPy, pandas, React, Next.js, Node.js, PostgreSQL, Drizzle, Supabase, AWS, Vercel, OpenMPI}
+     \textbf{Awards}{: USACO Platinum; 4x AIME Qualifier; 2x CyberPatriot National Finalist; PROMYS 2022; Canada/USA Mathcamp 2021} \\ \vspace{1pt}
+     \textbf{Languages}{: Python, C++, C, TypeScript, SQL, Lean 4} \\ \vspace{1pt}
+     \textbf{ML / Infra}{: PyTorch, vLLM, LangGraph, React, Next.js, Node.js, PostgreSQL, AWS, OpenMPI}
     }}
  \end{itemize}
 
