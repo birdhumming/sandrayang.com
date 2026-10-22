@@ -18,6 +18,7 @@ a:hover{border-bottom-color:var(--fg)}
 .meta{color:var(--muted);margin-bottom:1.75rem}
 .meta a{color:var(--muted)}
 ul{padding-left:1.25rem;margin:0 0 1rem}
+ul ul{margin:0}
 li{margin:.15rem 0}
 ul.plain{list-style:none;padding:0}
 ul.plain li{margin:.35rem 0}

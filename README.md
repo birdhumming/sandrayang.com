@@ -3,7 +3,7 @@
 Static site, no build step. Everything under `public/` is served as-is.
 
 - `public/index.html` — home
-- `public/bugbasher/`, `public/lemma/`, `public/proco/`, `public/router/`, `public/mts/`, `public/xiaoprompt/`, `public/mergesort/` — one page per resume link
+- `public/bugbasher/` — the BugBasher write-up (only separate page)
 - `public/resume.pdf` — built from `resume/resume.tex` (`make resume`, needs [tectonic](https://tectonic-typesetting.github.io))
 - `public/style.css` + `public/fonts/` — Latin Modern, LaTeX look
 
