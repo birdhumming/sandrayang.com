@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10.5pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -35,7 +35,7 @@
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 
-\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{0pt}}}}
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-1pt}}}}
 
 \newcommand{\resumeSubheading}[3]{
   \vspace{-2pt}\item
@@ -56,7 +56,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
 
 \begin{document}
 
@@ -86,6 +86,13 @@
       \resumeItemListEnd
 
     \resumeSubheading
+      {Stanford AI Lab (SAIL)}{Undergraduate Researcher, advised by Tengyu Ma}{2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{FuzzyDecisionBench (\textit{Evaluating Open-Ended Decision-Making With LLM-as-Environment}, w/ Caroline Choi): a benchmark of LLM-simulated environments for open-ended sequential decision-making; 3 environments, 11 frontier models evaluated. Accepted to NeurIPS 2026 Verify-Agents Workshop; under review at ICLR 2027.}
+        \resumeItem{Built the NFL head-coach environment (prompt + dynamics engine), the multi-seed probe orchestrator, the human-evaluation UI, and the project website.}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {Andreessen Horowitz (a16z)}{New Media}{Mar. 2026 -- Jun. 2026}
       \resumeItemListStart
         \resumeItem{Built application infrastructure for a16z fellowship programs end to end (intake, review, and tooling).}
@@ -111,13 +118,13 @@
     \resumeSubheading
       {Harvard Visual Attention Lab}{Research Intern, Research Science Institute (RSI)}{Jun. 2023 -- Aug. 2023}
       \resumeItemListStart
-        \resumeItem{Developed algorithms extracting predictive signal from unskilled crowd data for breast cancer detection; adopted by a medical data-labelling company, improving prediction accuracy 21\%.}
+        \resumeItem{Algorithms extracting predictive signal from unskilled crowd data for breast cancer detection; adopted by a medical data-labelling company (+21\% prediction accuracy).}
       \resumeItemListEnd
 
     \resumeSubheading
       {University of Virginia Biocomplexity Institute}{Algorithms Developer Intern}{Aug. 2021 -- Jul. 2023}
       \resumeItemListStart
-        \resumeItem{Designed hybrid parallel merge-sort algorithms (Python, OpenMPI, multiprocessing) achieving 34x speedups; co-authored preprint \href{https://arxiv.org/abs/2211.16479}{\textit{Approaches to the Parallelization of Merge Sort in Python}} with Prof. Gregor von Laszewski.}
+        \resumeItem{Hybrid parallel merge-sort algorithms (Python, OpenMPI, multiprocessing) with 34x speedups; co-authored preprint \href{https://arxiv.org/abs/2211.16479}{\textit{Approaches to the Parallelization of Merge Sort in Python}}.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
