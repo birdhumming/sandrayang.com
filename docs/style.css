@@ -1,12 +1,8 @@
-@font-face{font-family:"Latin Modern";font-style:normal;font-weight:normal;font-display:swap;src:url("/fonts/LM-regular.woff2") format("woff2")}
-@font-face{font-family:"Latin Modern";font-style:italic;font-weight:normal;font-display:swap;src:url("/fonts/LM-italic.woff2") format("woff2")}
-@font-face{font-family:"Latin Modern";font-style:normal;font-weight:bold;font-display:swap;src:url("/fonts/LM-bold.woff2") format("woff2")}
-@font-face{font-family:"Latin Modern";font-style:italic;font-weight:bold;font-display:swap;src:url("/fonts/LM-bold-italic.woff2") format("woff2")}
 
 :root{--fg:#111;--bg:#fff;--muted:#555;--rule:#111;--link:#111}
 *{box-sizing:border-box}
 html{font-size:17px}
-body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:"Latin Modern","Computer Modern",Georgia,serif;line-height:1.5;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:Charter,"Bitstream Charter","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;line-height:1.5;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
 main{max-width:38rem;margin:0 auto;padding:4rem 1.25rem 5rem}
 h1,h2,h3{font-weight:bold;line-height:1.2;margin:0}
 h1{font-size:1.9rem;margin-bottom:.25rem}
@@ -16,7 +12,7 @@ p{margin:0 0 1rem;text-align:justify;hyphens:auto}
 a{color:var(--link);text-decoration:none;border-bottom:1px solid #999}
 a:hover{border-bottom-color:var(--fg)}
 .meta{color:var(--muted);margin-bottom:1.75rem}
-.meta a{color:var(--muted)}
+.meta a{color:var(--muted);margin-right:1.1em}
 ul{padding-left:1.25rem;margin:0 0 1rem}
 ul ul{margin:0}
 li{margin:.15rem 0}
