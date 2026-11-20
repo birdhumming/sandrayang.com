@@ -72,7 +72,7 @@
     \resumeSubheading
       {Stanford University}{B.S. Computer Science + History}{Jun. 2028}
       \resumeItemListStart
-        \resumeItem{Coursework: Machine Learning (CS 229), Reinforcement Learning (CS 224R), Deep Learning (CS 312), Decision Making Under Uncertainty (CS 238), Theoretical Statistics (STATS 200), Algorithms (CS 161), Computer Systems (CS 107), Operating Systems (CS 111), Probability \& Combinatorics (MATH 63DM), Real Analysis (MATH 61DM)}
+        \resumeItem{Coursework: Machine Learning (CS 229), Reinforcement Learning (CS 224R), Deep Learning (CS 312), Decision Making Under Uncertainty (CS 238), Theoretical Statistics (STATS 200), Algorithms (CS 161), Computer Systems (CS 107), Operating Systems (CS 111), Probability \& Combinatorics (MATH 63DM), Discrete Methods (MATH 61DM), Real Analysis (MATH 115)}
         \resumeItem{Co-President, \href{https://www.stanfordvc.org}{Stanford Venture Capital Club}; Counterpoint A Cappella}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
@@ -104,7 +104,7 @@
     \resumeSubheading
       {Khosla Ventures}{Technical Intern to Vinod Khosla}{Jan. 2026 -- Mar. 2026}
       \resumeItemListStart
-        \resumeItem{Built internal platform tooling and AI/ML pipelines for portfolio evaluation; worked directly with Vinod Khosla on infrastructure and investment. TypeScript, Drizzle ORM, PostgreSQL, AWS.}
+        \resumeItem{Built internal platform tooling and AI/ML pipelines for portfolio evaluation. TypeScript, Drizzle ORM, PostgreSQL, AWS.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -122,7 +122,7 @@
     \resumeSubheading
       {University of Virginia Biocomplexity Institute}{Algorithms Developer Intern}{Aug. 2021 -- Jul. 2023}
       \resumeItemListStart
-        \resumeItem{Hybrid parallel merge-sort algorithms (Python, OpenMPI, multiprocessing) with 34x speedups; co-authored preprint \href{https://arxiv.org/abs/2211.16479}{\textit{Approaches to the Parallelization of Merge Sort in Python}}.}
+        \resumeItem{Hybrid parallel merge-sort algorithms (Python, OpenMPI) with 34x speedups; co-authored \href{https://arxiv.org/abs/2211.16479}{preprint} on parallelizing merge sort in Python.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -136,9 +136,10 @@
             \resumeItem{LoRA + mixed-mode bilevel differentiation for memory-efficient meta-gradients on GPU.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Sequoia PokerBot Competition} $|$ \emph{4th Place, Bay Area Regionals; Finals Qualifier (top 20)} $|$ \emph{Python, PyTorch}}{}
+          {\textbf{Sequoia PokerBot Competition} $|$ \emph{4th Place, Bay Area Regionals; Finals Qualifier (top 20)} $|$ \emph{Python, NumPy, numba, JAX}}{}
           \resumeItemListStart
-            \resumeItem{Trained a small poker bot with self-play and PPO; finished 4th at regionals, one of 20 bots to qualify for the finals.}
+            \resumeItem{Built a 6-player no-limit poker bot: $\sim$25k-parameter policy net over 46 hand-built features, trained with PPO and league self-play (past snapshots, randomized rule bots, scripted styles); numba inference under 1 ms per decision.}
+            \resumeItem{Built eval tooling replaying bots on real tournament hands and measuring exploitability via best-response nets; tested larger nets and DAgger-style fine-tunes (up to 2$\times$1024, 8$\times$A100 JAX), rejected them on real data, and shipped the smaller, more robust net.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{Stanford Programming Contest (ProCo)} $|$ \emph{Co-Director, Problem-Writing Lead} $|$ \emph{Python, C++, Polygon}}{}
